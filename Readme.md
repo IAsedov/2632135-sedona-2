@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Иван Седов](https://up.htmlacademy.ru/htmlcss-individual/2/user/2632135).
-* Наставник: `Неизвестно`.
+* Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
 
 ---
 
