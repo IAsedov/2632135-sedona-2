@@ -2,7 +2,7 @@
 
 * Студент: [Иван Седов](https://up.htmlacademy.ru/htmlcss-individual/2/user/2632135).
 * Наставник: [Ирина Малиновская](https://htmlacademy.ru/profile/irina-malinovskaya).
-
+* Сайт: [Проект Седона](https://iasedov.github.io/2632135-sedona-2/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
