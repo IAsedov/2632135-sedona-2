@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Поиск гостиницы в Седоне</title>
+  <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
@@ -38,7 +39,7 @@
             </a>
           </li>
           <li class="navigation-item">
-            <a class="navigation-link navigation-button" href="#">Хочу сюда!</a>
+            <a class="navigation-link navigation-button button button-brown" href="#">Хочу сюда!</a>
           </li>
         </ul>
       </nav>
@@ -136,8 +137,8 @@
                 <input class="range-max" type="range" name="price-range" min="0" max="100000" step="10" value="9000">
               </div>
               <div class="filter__buttons">
-                <button class="filter-button" type="submit">Применить</button>
-                <button class="filter-button" type="reset">Сбросить</button>
+                <button class="button button-blue filter-button" type="submit">Применить</button>
+                <button class="button button-clear filter-button" type="reset">Сбросить</button>
               </div>
             </fieldset>
           </form>
@@ -176,8 +177,8 @@
               <h3 class="catalog-title-small">Amara Resort & Spa</h3>
               <p class="catalog-type">Гостиница</p>
               <p class="catalog-price">От <span>4000</span> ₽</p>
-              <a class="catalog-button" href="#">Подробнее</a>
-              <button class="catalog-utton" type="button">В избранное</button>
+              <a class="button button-brown catalog-button" href="#">Подробнее</a>
+              <button class="button button-blue catalog-button" type="button">В избранное</button>
               <div class="catalog-stars catalog-stars-four">
                 <span class="visually-hidden">4 звезды</span>
               </div>
@@ -191,8 +192,8 @@
               <h3 class="catalog-title-small">Villas at Poco Diablo</h3>
               <p class="catalog-type">Гостиница</p>
               <p class="catalog-price">От <span>5000</span> ₽</p>
-              <a class="catalog-button" href="#">Подробнее</a>
-              <button class="catalog-utton" type="button">В избранное</button>
+              <a class="button button-brown catalog-button" href="#">Подробнее</a>
+              <button class="button button-green catalog-button" type="button">В избранном</button>
               <div class="catalog-stars catalog-stars-four">
                 <span class="visually-hidden">4 звезды</span>
               </div>
@@ -206,8 +207,8 @@
               <h3 class="catalog-title-small">Desert Quail Inn</h3>
               <p class="catalog-type">Гостиница</p>
               <p class="catalog-price">От <span>2500</span> ₽</p>
-              <a class="catalog-button" href="#">Подробнее</a>
-              <button class="catalog-utton" type="button">В избранное</button>
+              <a class="button button-brown catalog-button" href="#">Подробнее</a>
+              <button class="button button-blue catalog-button" type="button">В избранное</button>
               <div class="catalog-stars catalog-stars-four">
                 <span class="visually-hidden">3 звезды</span>
               </div>
@@ -221,8 +222,8 @@
               <h3 class="catalog-title-small">GreenTree Inn</h3>
               <p class="catalog-type">Гостиница</p>
               <p class="catalog-price">От <span>1500</span> ₽</p>
-              <a class="catalog-button" href="#">Подробнее</a>
-              <button class="catalog-utton" type="button">В избранное</button>
+              <a class="button button-brown catalog-button" href="#">Подробнее</a>
+              <button class="button button-blue catalog-button" type="button">В избранное</button>
               <div class="catalog-stars catalog-stars-four">
                 <span class="visually-hidden">2 звезды</span>
               </div>
@@ -235,31 +236,31 @@
           <nav class="pagination-nav" aria-label="Навигация по страницам">
             <ul class="pagination-list">
               <li class="pagination-item">
-                <a class="pagination-button" href="#" aria-current="true">1</a>
+                <a class="pagination-button pagination-button-gray" href="#" aria-current="true">1</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-button" href="#">2</a>
+                <a class="pagination-button pagination-button-blue" href="#">2</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-button" href="#">3</a>
+                <a class="pagination-button pagination-button-blue" href="#">3</a>
               </li>
               <li class="pagination-item">
-                <a class="pagination-button" href="#">4</a>
+                <a class="pagination-button pagination-button-blue" href="#">4</a>
               </li>
               <li class="pagination-item">
-                <span class="pagination-button" aria-hidden="true">...</span>
+                <span class="pagination-button pagination-button-white" aria-hidden="true">...</span>
               </li>
               <li class="pagination-item">
-                <a class="pagination-button" href="#">10</a>
+                <a class="pagination-button pagination-button-blue" href="#">10</a>
               </li>
             </ul>
           </nav>
       </section>
 
 
-      <section class="subscription">
-        <h2 class="subscription-title">Подпишитесь на рассылку</h2>
-        <p class="subscription-description">Только полезная информация и никакого спама,<br>честное
+      <section class="subscription subscription-catalog">
+        <h2 class="subscription-title subscription-title-catalog">Подпишитесь на рассылку</h2>
+        <p class="subscription-description subscription-description-catalog">Только полезная информация и никакого спама,<br>честное
           бойскаутское!</p>
         <form class="subscription-form" action="https://echo.htmlacademy.ru/" method="post">
           <label class="visually-hidden" for="user-email">Введите email</label>
